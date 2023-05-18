@@ -1,13 +1,20 @@
 #include <stdio.h>
 
-// a program that determines if a year is a leap year or not
-// A leap year is a year divided by 4
+/**
+  * main - Entry point
+  *
+  * a program that determines if a year is a leap year or not
+  *
+  * A leap year is a year divided by 4
+  *
+  * Return: 0
+  */
 
-int main()
+int main(void)
 {
 	int year;
 
-	// prompt user for the year
+	/* prompt user for the year */
 	printf("Please Enter a Year in the Format YYYY: ");
 	scanf("%d", &year);
 
@@ -26,6 +33,6 @@ int main()
 	else
 		printf("%d is not a leap year.\n", year);
 
-	return 0;
+	return (0);
 }
 
