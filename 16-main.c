@@ -1,10 +1,17 @@
 #include <stdio.h>
 
-int main()
+/**
+  * main - Entry point
+  *
+  * a program that prints out all multiples of 6 less than 100
+  *
+  * Return: 0
+  */
+
+int main(void)
 {
 	int m = 1;
 
-	//a program that prints out all multiples of 6 less than 100
 	printf("Multiples of 6 less than 100:\n");
 	while (m <= 100)
 	{
@@ -14,7 +21,7 @@ int main()
 		}
 		m++;
 	}
-
 	printf("\n");
-	return 0;
+
+	return (0);
 }
