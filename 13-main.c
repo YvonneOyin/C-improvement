@@ -1,26 +1,34 @@
 #include <stdio.h>
 
-// A program that prints the alphabet in lowercase, followed by a new line
+/**
+  * main - Entry point
+  *
+  * A program that prints the alphabet in lowercase, followed by a new line
+  *
+  * Return: 0
+  */
 
-int main()
+int main(void)
 {
-	/* char alphaBet;
-
-	// print lowercase
-	for (alphaBet = 'a'; alphaBet <= 'z'; alphaBet++)
-	{
-		printf("%c\n", alphaBet);
-	}
-
-	// print uppercase
-	for (alphaBet = 'A'; alphaBet <= 'Z'; alphaBet++)
-	{
-		printf("%c\n", alphaBet);
-	}
-	return 0; */
+	/**
+	*char alphaBet;
+	*
+	* print lowercase
+	*for (alphaBet = 'a'; alphaBet <= 'z'; alphaBet++)
+	*{
+	*printf("%c\n", alphaBet);
+	*}
+	*print uppercase
+	*for (alphaBet = 'A'; alphaBet <= 'Z'; alphaBet++)
+	*{
+	*printf("%c\n", alphaBet);
+	*}
+	*return 0;
+	*/
 
 	char alphabet = 'a';
-	// print lowercase
+
+	/* print lowercase */
 	while (alphabet <= 'z')
 	{
 		printf("%c\n", alphabet);
@@ -28,12 +36,13 @@ int main()
 	}
 
 	char alphaBet = 'A';
-	// print uppercase
+
+	/* print uppercase */
 	while (alphaBet <= 'Z')
 	{
 		printf("%c\n", alphaBet);
 		alphaBet++;
 	}
 
-	return 0;
+	return (0);
 }
