@@ -1,7 +1,14 @@
-// Outputting characters with putchar
+/**
+  * main - Entry point
+  *
+  * Outputting characters with putchar
+  *
+  * Return: 0
+  */
+
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	putchar(72);
 	putchar(105);
@@ -13,5 +20,6 @@ int main()
 	putchar(101);
 	putchar(33);
 	putchar(10);
-	return 0;
+
+	return (0);
 }
